@@ -68,3 +68,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Tutorial
+
+### O que aprender
+
+0. TicTac
+
+   - https://pt-br.reactjs.org/tutorial/tutorial.html
+
+1. masterclass basico
+
+   - https://www.youtube.com/watch?v=XQxitgyZ_S4
+   - https://www.youtube.com/watch?v=GJ8Vm-h0V8I
+
+2. Aplicar hooks (state e effect)
+
+   - https://pt-br.reactjs.org/docs/hooks-intro.html
+   - https://www.imaginarycloud.com/blog/react-hooks-vs-redux/
+   - https://blog.logrocket.com/use-hooks-and-context-not-react-and-redux/
+
+3. Redux
+
+   - https://blog.geekhunter.com.br/redux-um-tutorial-pratico-e-simples/
+
+4. NextJS e ReactJS
+
+   - https://www.youtube.com/watch?v=PHKaJlAeNLk
