@@ -28,3 +28,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 5. NextJS e ReactJS
 
    - https://www.youtube.com/watch?v=PHKaJlAeNLk
+
+### Links
+
+- https://htmlcolorcodes.com/color-chart/
+- https://uigradients.com/

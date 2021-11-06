@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-import produtos from '../data/produtos.js'
+import produtos from "../../data/produtos.js";
 
 const Repeticao = props => {
-  console.log('Repeticao')
+  console.log("Repeticao");
 
   function getProdutos() {
     return produtos.map(prod => {
@@ -11,15 +11,15 @@ const Repeticao = props => {
         <li key={prod.id}>
           {prod.id} - {prod.name} - R$ {prod.price}
         </li>
-      )
-    })
+      );
+    });
   }
 
   return (
     <div>
       <ul>{getProdutos()}</ul>
     </div>
-  )
-}
+  );
+};
 
-export default Repeticao
+export default Repeticao;

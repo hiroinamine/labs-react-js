@@ -12,4 +12,4 @@ const ComParametro = ({ titulo, subtitulo }) => {
 
 export default ComParametro;
 
-// props
+// props, é somente leitura
