@@ -1,14 +1,14 @@
-import './App.css'
+import "./App.css";
 
-import React from 'react'
+import React from "react";
 
-import Card from './components/layout/Card'
-import Primeiro from './components/Primeiro'
-import ComParametro from './components/ComParametro'
-import ComFilhos from './components/ComFilhos'
-import Repeticao from './components/Repeticao'
-import Condicional from './components/Condicional'
-import CondicionalComIf from './components/CondicionalComIf'
+import Card from "./components/layout/Card";
+import Primeiro from "./components/Primeiro";
+import ComParametro from "./components/ComParametro";
+import ComFilhos from "./components/ComFilhos";
+import Repeticao from "./components/Repeticao";
+import Condicional from "./components/Condicional";
+import CondicionalComIf from "./components/CondicionalComIf";
 
 const App = props => {
   return (
@@ -41,11 +41,12 @@ const App = props => {
           subtitulo="Esse é o subtitulo"
         ></ComParametro>
       </Card>
+
       <Card titulo="#01 - Primeira Componente">
         <Primeiro></Primeiro>
       </Card>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
