@@ -32,10 +32,6 @@ const App = props => {
           <Input></Input>
         </Card>
 
-        <Card titulo="#08 - Comunicao Indireta" color="#0099FF">
-          <Super></Super>
-        </Card>
-
         <Card titulo="#08 - Comunicao Indireta" color="#006633">
           <Super></Super>
         </Card>
