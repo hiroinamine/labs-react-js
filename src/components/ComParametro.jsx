@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
-const ComParametro = props => {
-  console.log('ComParametro')
+const ComParametro = ({ titulo, subtitulo }) => {
+  console.log("ComParametro");
   return (
     <>
-      <h3>{props.titlo}</h3>
-      <p>{props.subtitulo}</p>
+      <h3>{titulo}</h3>
+      <p>{subtitulo}</p>
     </>
-  )
-}
+  );
+};
 
-export default ComParametro
+export default ComParametro;
 
 // props

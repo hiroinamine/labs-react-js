@@ -11,11 +11,7 @@ const Primeiro = () => {
   );
 };
 
-// export default Primeiro
-
-export default propos => {
-  return <div></div>;
-};
+export default Primeiro;
 
 // <> Fragment, nao gera elemento html
 // usando arrow function
