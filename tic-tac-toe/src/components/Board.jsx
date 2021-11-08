@@ -32,10 +32,19 @@ class Board extends React.Component {
   // }
 
   renderSquare(i) {
+    const winnerClass =
+      this.props.winnerSquares && this.props.winnerSquares.includes(i)
+        ? "square--green"
+        : "";
+
+    const highlight = this.props.highlight === i;
     return (
       <Square
+        winnerClass={winnerClass}
+        key={i}
         value={this.props.squares[i]}
         onClick={() => this.props.onClick(i)}
+        highlight={highlight}
       />
     );
   }
@@ -50,10 +59,21 @@ class Board extends React.Component {
     //   status = "Next player: " + (this.state.xIsNext ? "X" : "O");
     // }
 
+    const boardSize = Math.sqrt(this.props.squares.length);
+
+    const squares = [...Array(boardSize).keys()].map(rowNumber => (
+      <div key={rowNumber} className="board-row">
+        {[...Array(boardSize).keys()].map(colNumber =>
+          this.renderSquare(rowNumber * 3 + colNumber)
+        )}
+      </div>
+    ));
+
     return (
       <div>
         {/* <div className="status">{status}</div> */}
-        <div className="board-row">
+        {squares}
+        {/* <div className="board-row">
           {this.renderSquare(0)}
           {this.renderSquare(1)}
           {this.renderSquare(2)}
@@ -67,7 +87,7 @@ class Board extends React.Component {
           {this.renderSquare(6)}
           {this.renderSquare(7)}
           {this.renderSquare(8)}
-        </div>
+        </div> */}
       </div>
     );
   }
