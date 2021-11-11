@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to left,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  /* font-weight: 300;
+  font-size: 1.4rem; */
+  text-align: center;
+}
+/* 
+h1,
+h2 {
+  font-weight: 300;
+} */

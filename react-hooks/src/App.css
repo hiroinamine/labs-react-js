@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.Classes {
+  display: flex;
+  flex-wrap: wrap;
+}
