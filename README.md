@@ -29,7 +29,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
    - https://blog.geekhunter.com.br/redux-um-tutorial-pratico-e-simples/
 
-6. NextJS e ReactJS
+6. Auth + Context API (hooks)
+
+   - https://www.youtube.com/watch?v=KISMYYXSIX8
+
+7. NextJS e ReactJS
 
    - https://www.youtube.com/watch?v=PHKaJlAeNLk
 
@@ -37,3 +41,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - https://htmlcolorcodes.com/color-chart/
 - https://uigradients.com/
+- https://isotropic.co/hex-color-to-css-filter/

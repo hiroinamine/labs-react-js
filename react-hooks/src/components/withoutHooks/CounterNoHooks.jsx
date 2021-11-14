@@ -1,7 +1,7 @@
 import React from "react";
 
 // Class component
-class CounterWithState extends React.Component {
+class CounterNoHooks extends React.Component {
   constructor(props) {
     super(props);
     // O único lugar onde você pode atribuir this.state é o construtor.
@@ -47,4 +47,4 @@ class CounterWithState extends React.Component {
   }
 }
 
-export default CounterWithState;
+export default CounterNoHooks;

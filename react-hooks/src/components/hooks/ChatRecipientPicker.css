@@ -1,0 +1,22 @@
+.ChatPicker {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-size: cover;
+  background-image: url("../../assets/icon.svg");
+}
+
+.icon-gray {
+  filter: invert(94%) sepia(3%) saturate(255%) hue-rotate(192deg)
+    brightness(95%) contrast(89%);
+}
+
+.icon-green {
+  filter: invert(59%) sepia(54%) saturate(536%) hue-rotate(93deg)
+    brightness(83%) contrast(97%);
+}
