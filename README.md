@@ -18,8 +18,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 3. Aplicar hooks (state e effect)
 
    - https://pt-br.reactjs.org/docs/hooks-intro.html
-   - https://www.imaginarycloud.com/blog/react-hooks-vs-redux/
-   - https://blog.logrocket.com/use-hooks-and-context-not-react-and-redux/
 
 4. memo, useMemo, useCallback
 
@@ -28,6 +26,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 5. Redux
 
    - https://blog.geekhunter.com.br/redux-um-tutorial-pratico-e-simples/
+   - https://www.imaginarycloud.com/blog/react-hooks-vs-redux/
+   - https://blog.logrocket.com/use-hooks-and-context-not-react-and-redux/
 
 6. Auth + Context API (hooks)
 
