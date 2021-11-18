@@ -25,9 +25,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 5. Redux
 
+   - https://www.youtube.com/watch?v=u99tNt3TZf8
    - https://blog.geekhunter.com.br/redux-um-tutorial-pratico-e-simples/
    - https://www.imaginarycloud.com/blog/react-hooks-vs-redux/
    - https://blog.logrocket.com/use-hooks-and-context-not-react-and-redux/
+   - https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867
 
 6. Auth + Context API (hooks)
 
