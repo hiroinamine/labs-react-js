@@ -31,11 +31,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
    - https://blog.logrocket.com/use-hooks-and-context-not-react-and-redux/
    - https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867
 
-6. Auth + Context API (hooks)
+6. React Router
+
+   - https://www.youtube.com/watch?v=G7hHdcW4kQY
+   - https://reactrouter.com/docs/en/v6/getting-started/tutorial
+
+7. Auth + Context API (hooks)
 
    - https://www.youtube.com/watch?v=KISMYYXSIX8
 
-7. NextJS e ReactJS
+8. NextJS e ReactJS
 
    - https://www.youtube.com/watch?v=PHKaJlAeNLk
 
